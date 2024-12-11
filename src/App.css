@@ -1,0 +1,317 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* -------------------------------------------- */
+
+/* Header ... */
+.Navbody{
+  width: 100%;
+}
+
+.Searchicon{
+  width: 40px;
+}
+.divsinout{
+  margin-right:10px ;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.toglebox{
+  border: none;
+}
+
+@media (max-width:599px) {
+  .SnInBtn{
+    background-color: white !important;
+    border-color: rgb(210, 209, 209) !important;
+    width: 70px !important;
+    color: rgb(230, 117, 161)  !important;
+    font-weight: 900 !important;
+
+  }
+  .SnOutBtn{
+    background-color: white !important;
+    border-color:rgb(210, 209, 209) !important;
+    width: 85px !important;
+    color: rgb(230, 117, 161)  !important;
+    font-weight: 900 !important;
+
+  }
+}
+.SnInBtn{
+  float: right;
+  width: 130px;
+  padding: 5px !important;
+  flex: 1 0 200px;
+  height: auto;
+
+}
+.SnOutBtn{
+  margin-left: 5px;
+  float: right;
+  width: 130px;
+  padding: 5px !important;
+  flex: 1 0 200px;
+  height: auto;
+}
+
+/* Slider Section */
+
+.slidcard{
+  
+}
+
+.slidimg{
+  width: 95%;
+  height: 500px;
+}
+
+/* Content Section */
+
+.divcards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center !important;
+  justify-items: center !important;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.divc1,.divc2,.divc3,.divc4{
+  margin: 0px !important;
+  flex: 1 0 200px;
+}
+
+@media ( max-width:770px) {
+  .divc1,.divc2,.divc3,.divc4{
+    margin: 0px !important;
+    flex: 1 0 10px;
+    margin-bottom: 40px !important;
+  }
+  
+}
+
+.card1,.card2,.card3,.card4{
+  box-shadow: 1px 2px 9px 1px;
+  /* margin-bottom: 40px !important;
+  margin-left: 5px !important; */
+
+
+}
+
+
+
+.cardlinks{
+  text-decoration: none;
+  padding: 0px;
+}
+
+
+.CardConTitle{
+  justify-content: center;
+  
+}
+
+/* Signin -- SignOut */
+/* SignIn */
+
+.DivSin{
+  border: 2px solid;
+  border-radius: 30px;
+  width: 500px;
+  justify-items: center !important;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 250px;
+  padding: 20px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.Sin-Inputs-box{
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid;
+  padding-left: 15px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.Sin-Inputs-box:hover{
+  width: 250px;
+}
+.Sin-Inputs-box:focus{
+  outline: none;
+}
+.Sin-Submit-Btn{
+  width: 70px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: 0.5s;
+}
+.Sin-Submit-Btn:hover{
+  width: 100px;
+  
+}
+
+@media (max-width:599px) {
+  .Sin-Inputs-box{
+
+  }
+  
+}
+
+
+.formall{
+  justify-content: center;
+  justify-items: center;
+  
+}
+
+
+/*---- Mens Page---- */
+
+.MensSecCard{
+  justify-content: center;
+  margin-left: 50px;
+  flex-wrap: wrap;
+  margin-top: 90px;
+}
+
+.divMcard{
+  flex: 1 0 200px;
+  justify-content: center;
+  
+}
+
+@media (max-width:599px) {
+  .MensSecCard{
+    margin: 50px;
+  }
+  .divMcard{
+    flex: 1 0 10px;
+    justify-content: center;
+  }
+  
+}
+
+.cardM1{
+  box-shadow: 1px 2px 10px 1px;
+}
+
+
+/* sign or login in page */
+
+.LoginForm{
+
+ 
+justify-items: center;
+
+}
+
+.Formlabel{
+  margin: 20px
+
+}
+/* ---------------- */
+
+.cardphid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.Card-description{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+/* ---Women Page--- */
+.WomenSecCard{
+  justify-content: center;
+  margin-left: 50px;
+  flex-wrap: wrap;
+  /* margin-top: 20px; */
+}
+.WdivCard{
+  flex: 1 0 200px;
+  justify-content: center;
+}
+.WCard{
+  display: flex;
+  box-shadow: 1px 2px 10px 1px;
+}
+.Wcardbody{
+  background-color: rgb(228, 227, 225);
+}
+
+@media (max-width:599px) {
+  .WomenSecCard{
+    margin: 15px;
+  }
+  .WdivCard{
+    flex: 1 0 10px;
+    justify-content: center;
+  }
+  
+}
+
+.MWJEsec{
+  color: rgb(233, 139, 190);
+}
+
+
+/* inside Womens card */
+.WDivCardText{
+  justify-content: center;
+}
+.WCardText{
+  margin: 1px;
+  padding: 2px;
+  
+}
